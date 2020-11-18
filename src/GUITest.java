@@ -33,10 +33,11 @@ public class GUITest {
 				counter++;
 				JFrame badFrame = new JFrame("Good luck");
 				badFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-				badFrame.setSize(100,100);
-				badFrame.setLocationRelativeTo(null);
+				badFrame.setSize(500,600);
+				badFrame.setLocationRelativeTo(badFrame);
 				badFrame.setVisible(true);
-
+				badFrame.setTitle("Window number " + counter);
+				
 				actionPerformed(e);
 			}
 		}
