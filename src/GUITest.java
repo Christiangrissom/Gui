@@ -53,7 +53,7 @@ public class GUITest {
 		JButton b1 = new JButton("Man who stare");
 		JButton b2 = new JButton("at goats");
 		JButton b3 = new JButton("at code monkeys");
-		JButton b4 = new JButton("THIS BUTTON WILL BLOW UP THE CODE");
+		JButton b4 = new JButton("THIS BUTTON WILL BLOW UP THE CODE");//not really
 		
 		
 		
